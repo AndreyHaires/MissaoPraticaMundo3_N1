@@ -1,67 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resumo do Programa - CadastroPOO</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        h2 {
-            color: #555;
-        }
-        h3 {
-            color: #777;
-        }
-        p {
-            color: #444;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 5px;
-            color: #333;
-            border-radius: 4px;
-        }
-    </style>
-</head>
-<body>
+# CadastroPOO - Sistema de Cadastro em Java
 
-    <h1>Resumo do Programa - CadastroPOO</h1>
+## Descrição:
 
-    <h2>Descrição:</h2>
-    <p>O programa CadastroPOO é um sistema de cadastro implementado em Java, utilizando Programação Orientada a Objetos (POO).</p>
+O CadastroPOO é um sistema de cadastro implementado em Java, utilizando Programação Orientada a Objetos (POO). Ele fornece uma solução eficiente para gerenciar informações de entidades, como pessoas físicas e jurídicas.
 
-    <h2>Funcionalidades Principais:</h2>
-    <ul>
-        <li>Criação de entidades: Implementa classes como Pessoa, PessoaFisica e PessoaJuridica, utilizando herança e polimorfismo.</li>
-        <li>Sistema de Persistência: Utiliza persistência de objetos em arquivos binários para armazenar e recuperar dados.</li>
-        <li>Interface Cadastral: Implementa uma interface cadastral em modo texto para interação com o usuário.</li>
-        <li>Controle de Exceções: Utiliza o controle de exceções da plataforma Java para lidar com erros de forma eficiente.</li>
-    </ul>
+## Funcionalidades Principais:
 
-    <h2>Organização do Código:</h2>
-    <ul>
-        <li>Abstração e Reutilização de Código: Classes abstratas como Pessoa permitem a modelagem de entidades comuns, enquanto subclasses específicas como PessoaFisica e PessoaJuridica reutilizam código.</li>
-        <li>Polimorfismo: Sobrescrita de métodos, como exibir(), permite chamar o mesmo método em objetos de tipos diferentes com comportamentos específicos.</li>
-        <li>Persistência de Dados: Utilização de classes de repositório para facilitar a persistência de objetos em arquivos binários.</li>
-        <li>Organização e Manutenção: Código modular para facilitar a manutenção e expansão do sistema.</li>
-    </ul>
+- **Criação de Entidades:** O sistema implementa classes como Pessoa, PessoaFisica e PessoaJuridica, fazendo uso de herança e polimorfismo para modelar diferentes tipos de entidades.
 
-    <h2>Resultado:</h2>
-    <p>O CadastroPOO proporciona uma implementação eficiente de um sistema cadastral em Java, integrando os princípios da POO e boas práticas de programação.</p>
+- **Persistência de Dados:** Utiliza persistência de objetos em arquivos binários para armazenar e recuperar dados, garantindo que as informações sejam preservadas entre diferentes execuções do programa.
 
-    <h2>Referências:</h2>
-    <ul>
-        <li>Deitel, P. J., & Deitel, H. M. (2016). Java: como programar.</li>
-        <li>Oracle. (2021). The Java™ Tutorials.</li>
-        <li>Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software.</li>
-    </ul>
+- **Interface Cadastral:** Oferece uma interface cadastral em modo texto para interação simples e intuitiva com o usuário.
 
-</body>
-</html>
+- **Controle de Exceções:** Implementa o controle de exceções da plataforma Java para lidar com erros de forma eficiente, melhorando a robustez do sistema.
+
+## Organização do Código:
+
+- **Abstração e Reutilização de Código:** Utiliza classes abstratas como Pessoa para fornecer uma base comum, permitindo a criação de subclasses específicas como PessoaFisica e PessoaJuridica.
+
+- **Polimorfismo:** A sobrescrita de métodos, como o método `exibir()`, possibilita chamar o mesmo método em objetos de tipos diferentes com comportamentos específicos.
+
+- **Persistência de Dados:** Usa classes de repositório para facilitar a persistência de objetos em arquivos binários, simplificando a manipulação de dados.
+
+- **Organização e Manutenção:** O código é modular, facilitando a manutenção e expansão do sistema ao seguir boas práticas de programação.
+
+## Resultado:
+
+O CadastroPOO proporciona uma implementação robusta e eficiente de um sistema cadastral em Java. Ao integrar os princípios da POO e boas práticas de programação, o programa se destaca pela sua simplicidade e flexibilidade.
+
+## Referências:
+
+- Deitel, P. J., & Deitel, H. M. (2016). Java: como programar.
+- Oracle. (2021). The Java™ Tutorials.
+- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software.
